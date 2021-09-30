@@ -1,0 +1,80 @@
+
+.Testimonial {
+border-radius: 10px;
+padding: 8% ;
+}
+
+.Testimonial1 {
+  background-color: hsl(263, 55%, 52%);
+  color:hsl(0, 0%, 100%);
+  position: relative;
+  background-image: url(../assets/bg-pattern-quotation.svg);
+  background-repeat:no-repeat;
+  background-position: 85% 0%;
+}
+
+.Testimonial2 {
+  background-color: hsl(217, 19%, 35%);
+  color:hsl(0, 0%, 100%);
+}
+.Testimonial3 {
+  background-color:  hsl(0, 0%, 100%);
+  color:hsl(217, 19%, 35%);
+}
+.Testimonial4 {
+  background-color:  hsl(0, 0%, 100%);
+  color:hsl(217, 19%, 35%);
+}
+.Testimonial5 {
+  background-color: #000;
+  color:hsl(0, 0%, 100%);
+}
+
+.Author {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.Testimonial img {
+  width: 50px;
+  border-radius: 90%;
+  border:2px solid white;
+  margin-right:5%;
+}
+
+.Testimonial h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.3rem;
+}
+
+.Testimonial h1 span{
+  font-size: 1rem;
+  font-weight: 500;
+  color:hsl(0, 0%, 50%);
+}
+
+.Testimonial1 h1 span, .Testimonial1 blockquote p:nth-child(2),
+.Testimonial2 h1 span , .Testimonial2 blockquote p:nth-child(2)
+.Testimonial5 h1 span, .Testimonial3 blockquote p:nth-child(2){
+  color:hsl(0, 0%, 70%);
+}
+
+.Testimonial3 h1 span, .Testimonial3 blockquote p:nth-child(2),
+.Testimonial4 h1 span , .Testimonial4 blockquote p:nth-child(2){
+  color:hsl(217, 19%, 50%);
+}
+
+.Testimonial blockquote p:nth-child(1) {
+ font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.Testimonial blockquote p:nth-child(2){
+
+  font-weight: 500;
+  margin-top: 1rem;
+}
